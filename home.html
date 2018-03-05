@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="css/bootstrap.min.css"/>
+	 <link rel="stylesheet" href="web-fonts-with-css/css/fontawesome-all.min.css" />
+	 <link rel="stylesheet" href="css/loader.css" />
+     <link rel="stylesheet" href="css/layout.css" />
+	 <link rel="stylesheet" href="css/media.css" />
+	 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	 
+	 <!--[if lt IE 9]>
+			<script src="js/html5shiv.min.js"></script>
+        <![endif]-->
+	
+	  <!-- Skitter Styles -->
+     <link href="css/skitter.css" rel="stylesheet" />
+     
+     	   <!-- scripts -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   
+   
+	 <script src="js/jquery-3.3.1.min.js" ></script>
+	 <script src="js/jquery.nicescroll.min.js"></script>
+	 <script src="js/script.js"> </script>
+	 <script src="js/bootstrap.min.js" ></script>
+     <script  src="js/jquery.easing.1.3.js"></script>
+     <script  src="js/jquery.skitter.min.js"></script>	 
+
+   
+    <!-- Init Skitter -->
+      <script >
+        $(document).ready(function() {
+
+          $('.skitter-large').skitter({
+             numbers: true,
+            navigation: false,
+            dots: false
+          });
+
+
+
+        });
+      </script>
+    
+  
+
+    <title>Institute of Programming</title>
+  </head>
+  <body >
+    <!-------------------------------header---------------------->
+     <div id="cont" class="container" style="margin:auto">
+		
+		<div class="container-fluid" id="div1" >
+		  <div class="row">
+			<div class="col-sm-9">
+			  <span>
+			    <i class="fas fa-phone-square"></i>01210321610
+			  </span>
+			  <span>
+			    <i class="fas fa-envelope"></i>alaah.elshafei@gmail.com
+			  </span>
+			</div>
+			<div class="col-sm-3">
+                <span>
+			    Better Future waiting!
+			    </span>
+			</div>
+			
+		  </div>
+		</div>
+     <!------------------navbar------------------------->
+      <nav class="navbar navbar-expand-lg navbar-light "  style=" background-color:white;position:sticky;top:0;z-index:15;">
+			  <a class="navbar-brand" href="#"><span id="snav1">SCC</span></a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+				  <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Log in</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Employee</a>
+              <a class="dropdown-item" href="#">Instructor</a>
+              <a class="dropdown-item" href="#">Student</a>
+            </div>
+           </li>
+         </ul>
+       </div>
+      </nav>
+      <!----------skitter---------->
+      <div class="container-fluid"  >
+      <div class="skitter-large-box">
+        <div class="skitter skitter-large with-thumbs">
+          <ul>
+            <li><a href="#cube"><img src="images/1.png"  class="cubeHide" /></a><div class="label_text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="#see-more" class="btn btn-small btn-yellow">See more</a></p></div></li>
+            
+            <li><a href="#cubeRandom"><img src="images/2.jpg" class="cubeSize" /></a><div class="label_text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.  <a href="#" class="btn btn-small btn-yellow">See more</a></p></div></li>
+            
+            <li><a href="#block"><img src="images/3.jpe" class="cubeShow" /></a><div class="label_text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="#" class="btn btn-small btn-yellow">See more</a></p></div></li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!---------------------Jumbotron------------------------->
+    <div class=" jumbotron">
+		    
+			  <h1 id="camel">COMPANY OVERVIEW</h1>
+			  <p  class="wow wobble" style="background-color: #e74c3c;" data-wow-iteration="infinite" data-wow-duration="1500ms">
+			  This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+				  
+				<a class="btn btn-danger btn-lg" href="#" role="button">VIEW MORE</a>
+		    
+    </div>
+    <!----------------------Scroll--------------------->
+     <div id="stop" class="scrollTop">
+       <a href="">Top</a>
+       </div>
+	
+	
+	
+	</div>
+	<!-----------------------------loader------------------>
+	<div class="over">
+		<div class="loader">Loading...</div>
+	</div>	
+	
+    
+      <!-------------------WOW Script------------------------>		
+      <script src="js/wow.min.js"></script>
+      <script>
+        wow = new WOW(
+          {
+              animateClass: 'animated',
+              offset:       100,
+              callback:     function(box) {
+              console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+            }
+          }
+        );
+        wow.init();
+
+      </script>
+      
+      <!--------------------------Funny Text Script----------------------------->
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+        <script src="js/jquery.funnyText.min.js"></script>
+        <script>
+            $(document).ready(function() {
+
+            $('#camel').funnyText({
+            speed: 700,
+            borderColor: 'gray',
+            activeColor: 'red',
+            color: 'gray',
+            fontSize: '2em',
+            direction: 'both'
+
+            });
+            });
+        </script>
+	 
+  </body>
+</html>
